@@ -12,10 +12,10 @@ export function isSolved(tiles) {
   return true;
 }
 
-// Get the index from a row/col pair.
-export function getIndex(row, col) {
-  return parseInt(row, 10) * GRID_SIZE + parseInt(col, 10);
-}
+// // Get the index from a row/col pair.
+// export function getIndex(row, col) {
+//   return parseInt(row, 10) * GRID_SIZE + parseInt(col, 10);
+// }
 
 // Get the row/col pair from a index.
 export function getMatrixPosition(index) {
